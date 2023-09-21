@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "test-handy-library"
-version = "0.0.1"
+version = "0.0.2"
 description = "A library that makes it very convenient to perform standard actions in Python"
 readme = "README.md"
 authors = [{ name = "SVJA7IK", email = "svja7ik@gmail.com" }]
@@ -28,7 +28,7 @@ dev = []
 Homepage = "https://github.com/SVJA7IK/HandyLibrary"
 
 [tool.bumpver]
-current_version = "0.0.1"
+current_version = "0.0.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "Bump version {old_version} -> {new_version}"
 commit          = true
