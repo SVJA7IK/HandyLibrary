@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-from utils import NoIndent, NoIndentEncoder
+from .utils import NoIndent, NoIndentEncoder
 from json import JSONDecodeError
 from types import SimpleNamespace
 from typing import List
