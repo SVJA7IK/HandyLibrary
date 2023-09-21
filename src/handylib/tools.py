@@ -156,11 +156,3 @@ class ConfigLoader:
 
         self.__check_keys_in_config(structure, config)
         return config
-
-
-# cl = ConfigLoader()
-# cl.load_config(f"config.json", [cl.ConfigParam('test', value=[1, 2, 3], description="Описание", value_type=list)])
-#
-# lg = Log().logger_setup(threads=False)
-# lg.success("123")
-# Log().custom_tag("Test")

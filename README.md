@@ -7,3 +7,9 @@ The latest stable release is available on PyPI, and you can install it by saying
 ```
 python -m pip install handy-library 
 ```
+## Example
+Example of configuring automatic creation of config.json
+```
+cl = ConfigLoader()
+cl.load_config("config.json", [cl.ConfigParam('test', value=[1, 2, 3], description="Params", value_type=list)])
+```
