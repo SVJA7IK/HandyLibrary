@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "handy-library"
-version = "0.0.1"
+version = "0.0.2"
 description = "A library that makes it very convenient to perform standard actions in Python"
 readme = "README.md"
 authors = [{ name = "SVJA7IK", email = "svja7ik@gmail.com" }]
@@ -14,7 +14,7 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3.10",
 ]
-keywords = ["handy-library", "handy", "universal-library"]
+keywords = ["handy library", "handylib", "universal library"]
 dependencies = [
     "loguru==0.7.2; python_version>='3.10'",
     "rich==13.5.3; python_version>='3.10'",
@@ -25,7 +25,7 @@ requires-python = ">=3.10"
 Homepage = "https://github.com/SVJA7IK/HandyLibrary"
 
 [tool.bumpver]
-current_version = "0.0.1"
+current_version = "0.0.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "Bump version {old_version} -> {new_version}"
 commit          = true
@@ -34,4 +34,4 @@ push            = false
 
 [tool.bumpver.file_patterns]
 "pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
-"src/handy-library/__init__.py" = ["{version}"]
+"src/handylib/__init__.py" = ["{version}"]
