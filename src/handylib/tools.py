@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-from .utils import NoIndent, NoIndentEncoder
 from json import JSONDecodeError
 from types import SimpleNamespace
 from typing import List
@@ -9,6 +8,8 @@ from typing import List
 from loguru import logger
 from rich.console import Console
 from rich.prompt import Prompt
+
+from .utils import NoIndent, NoIndentEncoder
 
 console = Console()
 
