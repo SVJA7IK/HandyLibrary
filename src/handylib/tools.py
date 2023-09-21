@@ -15,7 +15,7 @@ console = Console()
 
 
 class Logger:
-    """Логер"""
+    """Creating a user-friendly log format"""
 
     def logger_setup(self, custom_debug=False, threads=True):
         logger.remove()
@@ -46,7 +46,7 @@ class Logger:
 
 
 class ConfigLoader:
-    """Конфигуратор конфигурации"""
+    """Configuration Configurator"""
 
     class ConfigParam:
         def __init__(self, name, description=None, value=None, value_type=None):
